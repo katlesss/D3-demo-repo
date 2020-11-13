@@ -5,12 +5,38 @@ background-color:  black;
 }
 
 .square {
-background-color: yellow;
+background-image: url('https://lh3.googleusercontent.com/proxy/4oEzLvNhyPKdrWWGu6ikhwM7R5EkbsAeU53QBBG3WGWpPliq8h13ZT-Z1ttzMpNd_aYyiIOMQyA2EycMhwH4QTZ-GcUke-4jo1rH5aqgdJCgza8_VkKNNbcuRDb55KbNRGSPpSl9OT8qxkyJnE_juKzGIt6FcZLfsEL2khkxCgecJDlb');
+background-position: center;
 color: black;
 height:300px;
 width:300px;
 display: flex;
 justify-content: center;
-text-align: center;
+animation-name: bounce;
+animation-duration: 4s;
+animation-iteration-count: 8;
 
+}
+
+
+@keyframes bounce {
+  0% {
+    transform: scale(1);
+    position: relative;
+  }
+  40% {
+    transform: scale(1.8);
+    position: relative;
+    top:400px;
+  }
+  80% {
+    transform: scale(0.6);
+    position: relative;
+    top: 200px;
+  }
+  100% {
+    transform: scale(1);
+    position: relative;
+
+  }
 }
