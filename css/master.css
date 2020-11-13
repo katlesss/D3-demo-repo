@@ -1,0 +1,16 @@
+body {
+
+background-color:  black;
+
+}
+
+.square {
+background-color: yellow;
+color: black;
+height:300px;
+width:300px;
+display: flex;
+justify-content: center;
+text-align: center;
+
+}
