@@ -1,42 +1,167 @@
-body {
 
-background-color:  black;
+
+
+nav {
+width: 100%;
+}
+
+nav ul {
+  display:flex;
+  justify-content: space-between;
+
+
+}
+nav a {
+  display: inline-flex;
+  padding: 5em;
+}
+
+ul {
+
+}
+li {
+background: green;
+display: flex
+}
+
+
+#sectionTITRE {
+
+
+padding-top: 50px;
+width:1050px;
+height: 300px;
+background-color: ;
+}
+#sectionTITRE
+p {
+font-family: "Scope One";
+line-height: 1;
+text-align: center;
+  font-size: 50px;
+  color:white;
+justify:center;
+padding-top: 100px;
+padding-bottom: 00px;
+width: 200px;
+height::2000px;}
+.titre
+{
+    border: 0px solid #888481;
+    background: url('https://cdnb.artstation.com/p/assets/images/images/029/469/187/large/ismail-inceoglu-the-quick-silver-fox-jumped.jpg?1597664223');
+
+    background-size: cover;
+    background-attachment: fixed;
+    color: #676362;
+    font-size: 7em;
+   display: flex;
+   justify-content:center;
+  padding-top:50px;
+  padding-bottom: 500px;
+  }
+
+
+
+
+
+.compteFox {
+  background-image: url('https://cdna.artstation.com/p/assets/images/images/019/110/814/large/matt-sanz-visual-development-mood-setting-forest-final.jpg?1569369252');
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  padding-bottom: 15px;
+
+
+}
+h1 {
+
+  padding-left: 10px;
+}
+h2{
+  display: flex;
+text-align: right;
+padding-right: 50px;
+line-height: 0,1;
+}
+h3{
+
+}
+.fableBear
+{
+    line-height: 1.5;
+    background-image: url('https://cdnb.artstation.com/p/assets/images/images/000/248/543/large/jakub-rozalski-1920-misio-finall-small.jpg?1443927910');
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: row-reverse;
+ padding-left: 20px;
+ padding-right: 50px;
+ padding-top: 100px;
+padding-right: 0px;
+ grid-gap: 400px;
+}
+    .texteFox{
+    display: flex;
+    width: 550px;
+    padding:10px;
+    text-shadow: 2px 2px 8px black;
+
+    }
+
+    .QuoteFox {
+display: flex;
+font-size: 3em;
+justify-content: center;
+padding-left: 900px;
+padding-top: 100px;
+padding-bottom: 5px;
+
+    }
+}
+.texteBear{
+
+padding-top: 500px;
+padding-bottom: 1000px;
+
 
 }
 
-.square {
-background-image: url('https://lh3.googleusercontent.com/proxy/4oEzLvNhyPKdrWWGu6ikhwM7R5EkbsAeU53QBBG3WGWpPliq8h13ZT-Z1ttzMpNd_aYyiIOMQyA2EycMhwH4QTZ-GcUke-4jo1rH5aqgdJCgza8_VkKNNbcuRDb55KbNRGSPpSl9OT8qxkyJnE_juKzGIt6FcZLfsEL2khkxCgecJDlb');
-background-position: center;
-color: black;
-height:300px;
-width:300px;
+
+
+
+.QuoteBear {
+display: flex;
+font-size: 3em;
+padding-top: 50px;
+font-style: italic;
+}
+
+
+.TheFox {
+color:rgb(173, 79, 9);
+
+}
+
+.TheGoat {
+color:white;
+}
+
+.momosignature{
+  display: flex;
+justify-content: space-between;
+align-items:flex-end;
+
+
+
+  font-style: ;
+}
+
+footer {
 display: flex;
 justify-content: center;
-animation-name: bounce;
-animation-duration: 4s;
-animation-iteration-count: 8;
+padding-top: 500px;
+padding-bottom: 200px;
 
-}
-
-
-@keyframes bounce {
-  0% {
-    transform: scale(1);
-    position: relative;
-  }
-  40% {
-    transform: scale(1.8);
-    position: relative;
-    top:400px;
-  }
-  80% {
-    transform: scale(0.6);
-    position: relative;
-    top: 200px;
-  }
-  100% {
-    transform: scale(1);
-    position: relative;
-
-  }
 }
